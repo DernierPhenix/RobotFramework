@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-05T15:46:44.484327" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-06T10:13:44.607849" rpa="false" schemaversion="5">
 <suite id="s1" name="Test1" source="c:\Users\Administrateur\Documents\RobotFramework\Tests\test1.robot">
-<test id="s1-t1" name="Test 7" line="60">
+<test id="s1-t1" name="Test 9" line="76">
 <kw name="Given I am on the homepage" owner="homepage_page" type="SETUP">
 <kw name="Open Browser" owner="Browser">
-<msg time="2025-03-05T15:46:44.637095" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg time="2025-03-05T15:46:44.639895" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Administrateur\\Documents\\RobotFramework\\browser\\traces\\temp\\2cfc39db-b8cd-460a-b1fb-185147289c7a"}</msg>
-<msg time="2025-03-05T15:46:44.655313" level="INFO">Starting Browser process C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 58440</msg>
-<msg time="2025-03-05T15:46:44.655547" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '58440']</msg>
-<msg time="2025-03-05T15:46:45.373317" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Administrateur\\Documents\\RobotFramework\\browser\\traces\\temp\\2cfc39db-b8cd-460a-b1fb-185147289c7a"}</msg>
-<msg time="2025-03-05T15:46:45.374915" level="INFO">{
+<msg time="2025-03-06T10:13:44.778273" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-03-06T10:13:44.780340" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Administrateur\\Documents\\RobotFramework\\browser\\traces\\temp\\7c2edd46-5e2e-422c-acce-c4883f4bf15c"}</msg>
+<msg time="2025-03-06T10:13:44.795956" level="INFO">Starting Browser process C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 53659</msg>
+<msg time="2025-03-06T10:13:44.796170" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '53659']</msg>
+<msg time="2025-03-06T10:13:45.487541" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Administrateur\\Documents\\RobotFramework\\browser\\traces\\temp\\7c2edd46-5e2e-422c-acce-c4883f4bf15c"}</msg>
+<msg time="2025-03-06T10:13:45.488708" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": true,
   "forcedColors": "none",
@@ -23,17 +23,17 @@
     "width": 1280
   }
 }</msg>
-<msg time="2025-03-05T15:46:45.395186" level="INFO">Successfully created context. </msg>
-<msg time="2025-03-05T15:46:45.395410" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
-<msg time="2025-03-05T15:46:47.067548" level="INFO">Successfully initialized new page object and opened url: https://www.decathlon.fr</msg>
+<msg time="2025-03-06T10:13:45.504588" level="INFO">Successfully created context. </msg>
+<msg time="2025-03-06T10:13:45.504804" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-03-06T10:13:47.826979" level="INFO">Successfully initialized new page object and opened url: https://www.decathlon.fr</msg>
 <arg>https://www.decathlon.fr</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<status status="PASS" start="2025-03-05T15:46:44.636500" elapsed="2.431385"/>
+<status status="PASS" start="2025-03-06T10:13:44.777755" elapsed="3.049672"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2025-03-05T15:46:47.130545" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
+<msg time="2025-03-06T10:13:47.885172" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
 <arg>id=didomi-notice-agree-button</arg>
 <arg>contains</arg>
 <arg>visible</arg>
@@ -41,18 +41,18 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:47.068146" elapsed="0.062845"/>
+<status status="PASS" start="2025-03-06T10:13:47.827686" elapsed="0.057731"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:46:47.132134" level="INFO">Clicks the element 'id=didomi-notice-agree-button'.</msg>
+<msg time="2025-03-06T10:13:47.886262" level="INFO">Clicks the element 'id=didomi-notice-agree-button'.</msg>
 <arg>id=didomi-notice-agree-button</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:47.131398" elapsed="0.170519"/>
+<status status="PASS" start="2025-03-06T10:13:47.885620" elapsed="0.164179"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2025-03-05T15:46:47.556908" level="INFO">States are: ['detached']</msg>
+<msg time="2025-03-06T10:13:48.305016" level="INFO">States are: ['detached']</msg>
 <arg>id=didomi-notice-agree-button</arg>
 <arg>contains</arg>
 <arg>detached</arg>
@@ -60,213 +60,2119 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:47.302380" elapsed="0.255007"/>
+<status status="PASS" start="2025-03-06T10:13:48.050233" elapsed="0.255215"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:46:44.635714" elapsed="2.921882"/>
+<status status="PASS" start="2025-03-06T10:13:44.776867" elapsed="3.528863"/>
 </kw>
-<kw name="When I search for &quot;8549582&quot;" owner="search_page" source_name="I search for &quot;${search}&quot;">
+<kw name="When I search for &quot;${search}&quot;" owner="search_page" source_name="I search for &quot;${search}&quot;">
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-03-05T15:46:47.560395" level="INFO">Fills the text '8549582' in the given field.</msg>
+<msg time="2025-03-06T10:13:48.308057" level="INFO">Fills the text 'ballon' in the given field.</msg>
 <arg>xpath=//input[@type='search']</arg>
 <arg>${search}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:47.559292" elapsed="0.048004"/>
+<status status="PASS" start="2025-03-06T10:13:48.307215" elapsed="0.106385"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:46:47.608165" level="INFO">Clicks the element 'xpath=//button[@type='submit']'.</msg>
+<msg time="2025-03-06T10:13:48.414461" level="INFO">Clicks the element 'xpath=//button[@type='submit']'.</msg>
 <arg>xpath=//button[@type='submit']</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:47.607572" elapsed="1.118803"/>
+<status status="PASS" start="2025-03-06T10:13:48.413898" elapsed="1.789319"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:46:47.558205" elapsed="1.168381"/>
+<status status="PASS" start="2025-03-06T10:13:48.306472" elapsed="1.897075"/>
 </kw>
-<kw name="And I add the product to the cart" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:46:48.728369" level="INFO">Clicks the element 'css=.conversion-zone__purchase-cta'.</msg>
-<arg>css=.conversion-zone__purchase-cta</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:48.727723" elapsed="0.522691"/>
-</kw>
-<status status="PASS" start="2025-03-05T15:46:48.727144" elapsed="0.523516"/>
-</kw>
-<kw name="Then the product is added to the cart successfully" owner="product_page">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-03-05T15:46:50.937572" level="INFO">Waited for Element with selector css=#popin-cross-sell [slot='title'] at state visible</msg>
-<arg>css=#popin-cross-sell [slot='title']</arg>
+<kw name="Then the search results contain the word &quot;${search}&quot;" owner="search_page" source_name="the search results contain the word &quot;${search}&quot;">
+<kw name="Get Element States" owner="Browser">
+<msg time="2025-03-06T10:13:50.857002" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
+<arg>id=search-suggestions-banner</arg>
+<arg>contains</arg>
 <arg>visible</arg>
-<arg>15s</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-03-05T15:46:49.251537" elapsed="1.686296"/>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:50.204854" elapsed="0.652400"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:46:49.251085" elapsed="1.686874"/>
-</kw>
-<kw name="When I close the cart popin" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:46:50.939466" level="INFO">Clicks the element 'css=.ecomm-sidepanel__close-btn'.</msg>
-<arg>css=.ecomm-sidepanel__close-btn</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:50.938831" elapsed="0.215385"/>
-</kw>
-<status status="PASS" start="2025-03-05T15:46:50.938388" elapsed="0.216207"/>
-</kw>
-<kw name="When I search for &quot;8336573&quot;" owner="search_page" source_name="I search for &quot;${search}&quot;">
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-03-05T15:46:51.156666" level="INFO">Fills the text '8336573' in the given field.</msg>
-<arg>xpath=//input[@type='search']</arg>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.202104" level="INFO">Text: 'ballon'</msg>
+<arg>css=.searchText</arg>
+<arg>contains</arg>
 <arg>${search}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:51.156002" elapsed="0.011487"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:50.857501" elapsed="0.344956"/>
 </kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:46:51.168252" level="INFO">Clicks the element 'xpath=//button[@type='submit']'.</msg>
-<arg>xpath=//button[@type='submit']</arg>
+<status status="PASS" start="2025-03-06T10:13:50.204158" elapsed="0.998468"/>
+</kw>
+<kw name="And There are &quot;74&quot; sellers listed" owner="search_page" source_name="there are &quot;${seller_count}&quot; sellers listed">
+<kw name="Get Elements" owner="Browser">
+<msg time="2025-03-06T10:13:51.331548" level="INFO">Found locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').first(),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(1),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(2),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(3),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(4),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(5),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(6),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(7),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(8),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(9),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(10),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(11),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(12),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(13),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(14),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(15),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(16),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(17),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(18),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(19),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(20),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(21),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(22),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(23),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(24),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(25),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(26),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(27),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(28),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(29),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(30),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(31),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(32),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(33),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(34),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(35),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(36),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(37),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(38),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(39),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(40),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(41),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(42),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(43),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(44),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(45),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(46),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(47),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(48),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(49),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(50),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(51),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(52),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(53),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(54),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(55),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(56),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(57),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(58),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(59),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(60),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(61),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(62),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(63),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(64),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(65),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(66),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(67),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(68),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(69),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(70),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(71),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(72),locator('xpath=(//summary[.//*[contains(text(), \'Filtrer par vendeurs\')]]/following-sibling::div//a)').nth(73) Locators successfully.</msg>
+<msg time="2025-03-06T10:13:51.332857" level="INFO">@{list_on_page} = [ xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=0 | xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; ...</msg>
+<var>@{list_on_page}</var>
+<arg>xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)</arg>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:51.167728" elapsed="1.056067"/>
+<doc>Returns a reference to Playwright [https://playwright.dev/docs/api/class-locator|Locator]
+for all matched elements by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.203665" elapsed="0.129510"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:46:51.155386" elapsed="1.068604"/>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.334304" level="INFO">@{list_of_sellers} = [ ]</msg>
+<var>@{list_of_sellers}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.333627" elapsed="0.000943"/>
 </kw>
-<kw name="And I add the product to the cart" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:46:52.225839" level="INFO">Clicks the element 'css=.conversion-zone__purchase-cta'.</msg>
-<arg>css=.conversion-zone__purchase-cta</arg>
+<for flavor="IN">
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.336305" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=0</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.335863" elapsed="0.000617"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.374719" level="INFO">Text: 'Decathlon\n306'</msg>
+<msg time="2025-03-06T10:13:51.375106" level="INFO">${text} = Decathlon
+306</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:52.225063" elapsed="1.088626"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.336821" elapsed="0.038386"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:46:52.224411" elapsed="1.089481"/>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.375475" elapsed="0.000522"/>
 </kw>
-<kw name="Then I close the cart popin" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:46:53.316138" level="INFO">Clicks the element 'css=.ecomm-sidepanel__close-btn'.</msg>
-<arg>css=.ecomm-sidepanel__close-btn</arg>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=0</var>
+<status status="PASS" start="2025-03-06T10:13:51.335541" elapsed="0.040597"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.377124" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=1</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.376707" elapsed="0.000664"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.443866" level="INFO">Text: 'Balles de Sport\n444'</msg>
+<msg time="2025-03-06T10:13:51.444218" level="INFO">${text} = Balles de Sport
+444</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:46:53.315108" elapsed="1.266704"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.377700" elapsed="0.066653"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:46:53.314402" elapsed="1.267616"/>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.444679" elapsed="0.000426"/>
 </kw>
-<kw name="And the product is added to the cart successfully" owner="product_page">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-03-05T15:46:54.590978" level="INFO">Waited for Element with selector css=#popin-cross-sell [slot='title'] at state visible</msg>
-<arg>css=#popin-cross-sell [slot='title']</arg>
-<arg>visible</arg>
-<arg>15s</arg>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=1</var>
+<status status="PASS" start="2025-03-06T10:13:51.376318" elapsed="0.068907"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.445936" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=2</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.445692" elapsed="0.000393"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.466673" level="INFO">Text: 'Sport &amp; Go\n282'</msg>
+<msg time="2025-03-06T10:13:51.467097" level="INFO">${text} = Sport &amp; Go
+282</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-03-05T15:46:54.583410" elapsed="0.007827"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.446255" elapsed="0.021070"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:46:54.582768" elapsed="0.008593"/>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.467638" elapsed="0.000522"/>
 </kw>
-<kw name="Then I go to the cart" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:46:54.593184" level="INFO">Clicks the element 'css=[data-href='/checkout/cart']'.</msg>
-<msg time="2025-03-05T15:47:04.772644" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<msg time="2025-03-05T15:47:04.772977" level="INFO">See also file:///C:/Users/Administrateur/Documents/RobotFramework/playwright-log.txt for additional details.</msg>
-<msg time="2025-03-05T15:47:41.847378" level="FAIL">TimeoutError: locator.click: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator('[data-href=\'/checkout/cart\']')
-    - locator resolved to &lt;button role="link" type="button" data-href="/checkout/cart" class="vtmn-btn vtmn-btn_variant--conversion vtmn-btn_size--medium vtmn-btn--icon-right vtmn-max-w-full"&gt;…&lt;/button&gt;
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is not stable
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is not stable
-    - retrying click action
-      - waiting 100ms
-    - waiting for element to be visible, enabled and stable
-  - element was detached from the DOM, retrying
-</msg>
-<arg>css=[data-href='/checkout/cart']</arg>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=2</var>
+<status status="PASS" start="2025-03-06T10:13:51.445413" elapsed="0.022872"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.469330" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=3</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.468902" elapsed="0.000593"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.481417" level="INFO">Text: 'Butyjana\n192'</msg>
+<msg time="2025-03-06T10:13:51.481738" level="INFO">${text} = Butyjana
+192</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="FAIL" start="2025-03-05T15:46:54.592480" elapsed="47.260481">TimeoutError: locator.click: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator('[data-href=\'/checkout/cart\']')
-    - locator resolved to &lt;button role="link" type="button" data-href="/checkout/cart" class="vtmn-btn vtmn-btn_variant--conversion vtmn-btn_size--medium vtmn-btn--icon-right vtmn-max-w-full"&gt;…&lt;/button&gt;
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is not stable
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is not stable
-    - retrying click action
-      - waiting 100ms
-    - waiting for element to be visible, enabled and stable
-  - element was detached from the DOM, retrying
-</status>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.469718" elapsed="0.012122"/>
 </kw>
-<status status="FAIL" start="2025-03-05T15:46:54.591903" elapsed="47.261293">TimeoutError: locator.click: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator('[data-href=\'/checkout/cart\']')
-    - locator resolved to &lt;button role="link" type="button" data-href="/checkout/cart" class="vtmn-btn vtmn-btn_variant--conversion vtmn-btn_size--medium vtmn-btn--icon-right vtmn-max-w-full"&gt;…&lt;/button&gt;
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is not stable
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is not stable
-    - retrying click action
-      - waiting 100ms
-    - waiting for element to be visible, enabled and stable
-  - element was detached from the DOM, retrying
-</status>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.482139" elapsed="0.000606"/>
 </kw>
-<msg time="2025-03-05T15:47:41.857144" level="INFO">Set timeout to: 10000</msg>
-<msg time="2025-03-05T15:47:41.871000" level="INFO">Switching context to context=2116ef49-c3a3-48f8-af9f-d82bf93da55e in CURRENT</msg>
-<msg time="2025-03-05T15:47:41.880782" level="INFO">Successfully changed active context: context=2116ef49-c3a3-48f8-af9f-d82bf93da55e</msg>
-<msg time="2025-03-05T15:47:41.917604" level="INFO">Successfully closed Context</msg>
-<status status="FAIL" start="2025-03-05T15:46:44.634917" elapsed="57.218990">TimeoutError: locator.click: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator('[data-href=\'/checkout/cart\']')
-    - locator resolved to &lt;button role="link" type="button" data-href="/checkout/cart" class="vtmn-btn vtmn-btn_variant--conversion vtmn-btn_size--medium vtmn-btn--icon-right vtmn-max-w-full"&gt;…&lt;/button&gt;
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is not stable
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is not stable
-    - retrying click action
-      - waiting 100ms
-    - waiting for element to be visible, enabled and stable
-  - element was detached from the DOM, retrying
-</status>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=3</var>
+<status status="PASS" start="2025-03-06T10:13:51.468515" elapsed="0.014368"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.483732" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=4</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.483373" elapsed="0.000535"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.502672" level="INFO">Text: 'Sportano EU\n146'</msg>
+<msg time="2025-03-06T10:13:51.503050" level="INFO">${text} = Sportano EU
+146</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.484182" elapsed="0.018985"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.503363" elapsed="0.000427"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=4</var>
+<status status="PASS" start="2025-03-06T10:13:51.483076" elapsed="0.020811"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.504895" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=5</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.504482" elapsed="0.000657"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.528569" level="INFO">Text: ' SG EQUIPEMENT   131'</msg>
+<msg time="2025-03-06T10:13:51.528809" level="INFO">${text} =  SG EQUIPEMENT   131</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.505405" elapsed="0.023478"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.529155" elapsed="0.000385"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=5</var>
+<status status="PASS" start="2025-03-06T10:13:51.504102" elapsed="0.025538"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.530276" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=6</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.530034" elapsed="0.000398"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.540932" level="INFO">Text: ' FORELLE.COM   111'</msg>
+<msg time="2025-03-06T10:13:51.541197" level="INFO">${text} =  FORELLE.COM   111</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.530651" elapsed="0.010629"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.541487" elapsed="0.000370"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=6</var>
+<status status="PASS" start="2025-03-06T10:13:51.529800" elapsed="0.012144"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.542598" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=7</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.542321" elapsed="0.000424"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.555257" level="INFO">Text: ' Sports Lab FR   85'</msg>
+<msg time="2025-03-06T10:13:51.555496" level="INFO">${text} =  Sports Lab FR   85</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.542929" elapsed="0.012641"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.555750" elapsed="0.000375"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=7</var>
+<status status="PASS" start="2025-03-06T10:13:51.542077" elapsed="0.014154"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.557052" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=8</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.556745" elapsed="0.000424"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.568051" level="INFO">Text: ' NetsportiqueGMBH   82'</msg>
+<msg time="2025-03-06T10:13:51.568431" level="INFO">${text} =  NetsportiqueGMBH   82</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.557328" elapsed="0.011229"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.568875" elapsed="0.000467"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=8</var>
+<status status="PASS" start="2025-03-06T10:13:51.556400" elapsed="0.013073"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.570330" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=9</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.570049" elapsed="0.000463"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.582903" level="INFO">Text: ' DesportivoEU   64'</msg>
+<msg time="2025-03-06T10:13:51.583170" level="INFO">${text} =  DesportivoEU   64</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.570674" elapsed="0.012570"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.583422" elapsed="0.000324"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=9</var>
+<status status="PASS" start="2025-03-06T10:13:51.569687" elapsed="0.014141"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.584487" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=10</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.584257" elapsed="0.000324"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.594613" level="INFO">Text: ' EURL SPORTLAND AMERICAN   36'</msg>
+<msg time="2025-03-06T10:13:51.594886" level="INFO">${text} =  EURL SPORTLAND AMERICAN   36</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.584734" elapsed="0.010265"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.595196" elapsed="0.000372"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=10</var>
+<status status="PASS" start="2025-03-06T10:13:51.584015" elapsed="0.011641"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.596347" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=11</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.596086" elapsed="0.000399"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.610140" level="INFO">Text: ' adidas France S.a.r.l (ADIDAS FR)   36'</msg>
+<msg time="2025-03-06T10:13:51.610537" level="INFO">${text} =  adidas France S.a.r.l (ADIDAS FR)   36</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.596656" elapsed="0.014003"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.610970" elapsed="0.000695"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=11</var>
+<status status="PASS" start="2025-03-06T10:13:51.595833" elapsed="0.015967"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.612796" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=12</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.612421" elapsed="0.000532"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.625648" level="INFO">Text: ' MLC   33'</msg>
+<msg time="2025-03-06T10:13:51.625891" level="INFO">${text} =  MLC   33</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.613178" elapsed="0.012791"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.626153" elapsed="0.000362"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=12</var>
+<status status="PASS" start="2025-03-06T10:13:51.612031" elapsed="0.014567"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.627187" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=13</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.626970" elapsed="0.000328"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.639844" level="INFO">Text: ' Brandtia   30'</msg>
+<msg time="2025-03-06T10:13:51.640247" level="INFO">${text} =  Brandtia   30</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.627477" elapsed="0.012923"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.640709" elapsed="0.000535"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=13</var>
+<status status="PASS" start="2025-03-06T10:13:51.626738" elapsed="0.014641"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.642234" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=14</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.641919" elapsed="0.000506"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.656687" level="INFO">Text: ' ESPACE SPORT   26'</msg>
+<msg time="2025-03-06T10:13:51.656946" level="INFO">${text} =  ESPACE SPORT   26</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.642646" elapsed="0.014384"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.657223" elapsed="0.000441"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=14</var>
+<status status="PASS" start="2025-03-06T10:13:51.641598" elapsed="0.016198"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.658688" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=15</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.658318" elapsed="0.000563"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.674849" level="INFO">Text: ' Univers Crampons   26'</msg>
+<msg time="2025-03-06T10:13:51.675251" level="INFO">${text} =  Univers Crampons   26</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.659118" elapsed="0.016246"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.675620" elapsed="0.000499"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=15</var>
+<status status="PASS" start="2025-03-06T10:13:51.658002" elapsed="0.018206"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.676853" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=16</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.676584" elapsed="0.000425"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.689672" level="INFO">Text: ' United Sports Brands   19'</msg>
+<msg time="2025-03-06T10:13:51.689982" level="INFO">${text} =  United Sports Brands   19</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.677193" elapsed="0.012877"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.690375" elapsed="0.000578"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=16</var>
+<status status="PASS" start="2025-03-06T10:13:51.676341" elapsed="0.014721"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.691904" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=17</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.691630" elapsed="0.000410"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.703324" level="INFO">Text: ' hummel Cenozoic Aps FR   18'</msg>
+<msg time="2025-03-06T10:13:51.703685" level="INFO">${text} =  hummel Cenozoic Aps FR   18</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.692216" elapsed="0.011582"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.704079" elapsed="0.000455"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=17</var>
+<status status="PASS" start="2025-03-06T10:13:51.691294" elapsed="0.013362"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.705479" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=18</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.705212" elapsed="0.000389"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.717341" level="INFO">Text: ' Ldmk   17'</msg>
+<msg time="2025-03-06T10:13:51.717714" level="INFO">${text} =  Ldmk   17</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.705766" elapsed="0.012058"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.718120" elapsed="0.000484"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=18</var>
+<status status="PASS" start="2025-03-06T10:13:51.704935" elapsed="0.013797"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.719503" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=19</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.719229" elapsed="0.000433"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.729415" level="INFO">Text: ' Fitwinkel - Sporttrader   16'</msg>
+<msg time="2025-03-06T10:13:51.729683" level="INFO">${text} =  Fitwinkel - Sporttrader   16</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.719811" elapsed="0.009955"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.729962" elapsed="0.000363"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=19</var>
+<status status="PASS" start="2025-03-06T10:13:51.718936" elapsed="0.011474"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.731076" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=20</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.730812" elapsed="0.000401"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.740909" level="INFO">Text: ' Sport-Centrum EU   14'</msg>
+<msg time="2025-03-06T10:13:51.741147" level="INFO">${text} =  Sport-Centrum EU   14</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.731397" elapsed="0.009828"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.741397" elapsed="0.000336"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=20</var>
+<status status="PASS" start="2025-03-06T10:13:51.730541" elapsed="0.011266"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.742498" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=21</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.742226" elapsed="0.000414"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.752628" level="INFO">Text: ' All-American Sports   13'</msg>
+<msg time="2025-03-06T10:13:51.752895" level="INFO">${text} =  All-American Sports   13</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.742826" elapsed="0.010174"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.753185" elapsed="0.000346"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=21</var>
+<status status="PASS" start="2025-03-06T10:13:51.741947" elapsed="0.011668"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.754260" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=22</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.754034" elapsed="0.000334"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.764342" level="INFO">Text: ' Buffalo B.V. - EU   13'</msg>
+<msg time="2025-03-06T10:13:51.764579" level="INFO">${text} =  Buffalo B.V. - EU   13</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.754503" elapsed="0.010150"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.764828" elapsed="0.000428"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=22</var>
+<status status="PASS" start="2025-03-06T10:13:51.753747" elapsed="0.011674"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.766574" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=23</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.766203" elapsed="0.000502"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.775883" level="INFO">Text: ' ALL SPORT VINTAGE   11'</msg>
+<msg time="2025-03-06T10:13:51.776152" level="INFO">${text} =  ALL SPORT VINTAGE   11</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.766848" elapsed="0.009391"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.776446" elapsed="0.000347"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=23</var>
+<status status="PASS" start="2025-03-06T10:13:51.765676" elapsed="0.011198"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.777447" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=24</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.777220" elapsed="0.000413"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.789295" level="INFO">Text: ' PUMA Europe GmbH - France   11'</msg>
+<msg time="2025-03-06T10:13:51.789538" level="INFO">${text} =  PUMA Europe GmbH - France   11</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.777838" elapsed="0.011775"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.789789" elapsed="0.000361"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=24</var>
+<status status="PASS" start="2025-03-06T10:13:51.777002" elapsed="0.013236"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.790842" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=25</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.790601" elapsed="0.000356"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.801055" level="INFO">Text: ' Implus EU   10'</msg>
+<msg time="2025-03-06T10:13:51.801397" level="INFO">${text} =  Implus EU   10</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.791108" elapsed="0.010404"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.801806" elapsed="0.000449"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=25</var>
+<status status="PASS" start="2025-03-06T10:13:51.790372" elapsed="0.011978"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.802998" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=26</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.802759" elapsed="0.000366"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.815051" level="INFO">Text: ' PlanetFoot   10'</msg>
+<msg time="2025-03-06T10:13:51.815456" level="INFO">${text} =  PlanetFoot   10</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.803324" elapsed="0.012264"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.815906" elapsed="0.000535"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=26</var>
+<status status="PASS" start="2025-03-06T10:13:51.802496" elapsed="0.014089"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.817533" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=27</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.817201" elapsed="0.000508"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.829449" level="INFO">Text: ' Voetbalfanshop   10'</msg>
+<msg time="2025-03-06T10:13:51.829728" level="INFO">${text} =  Voetbalfanshop   10</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.817921" elapsed="0.011888"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.829992" elapsed="0.000420"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=27</var>
+<status status="PASS" start="2025-03-06T10:13:51.816821" elapsed="0.013686"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.831427" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=28</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.831072" elapsed="0.000573"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.844220" level="INFO">Text: ' Sportello EUR   9'</msg>
+<msg time="2025-03-06T10:13:51.844554" level="INFO">${text} =  Sportello EUR   9</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.831822" elapsed="0.012848"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.844960" elapsed="0.000484"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=28</var>
+<status status="PASS" start="2025-03-06T10:13:51.830680" elapsed="0.014895"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.846526" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=29</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.846179" elapsed="0.000502"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.859427" level="INFO">Text: ' Alltricks   8'</msg>
+<msg time="2025-03-06T10:13:51.859658" level="INFO">${text} =  Alltricks   8</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.846883" elapsed="0.012847"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.859906" elapsed="0.000342"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=29</var>
+<status status="PASS" start="2025-03-06T10:13:51.845803" elapsed="0.014525"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.860909" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=30</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.860690" elapsed="0.000324"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.871555" level="INFO">Text: ' Cartothèque   8'</msg>
+<msg time="2025-03-06T10:13:51.871899" level="INFO">${text} =  Cartothèque   8</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.861136" elapsed="0.011005"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.872365" elapsed="0.000383"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=30</var>
+<status status="PASS" start="2025-03-06T10:13:51.860453" elapsed="0.012385"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.873452" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=31</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.873221" elapsed="0.000336"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.883128" level="INFO">Text: ' EQTRDS   8'</msg>
+<msg time="2025-03-06T10:13:51.883405" level="INFO">${text} =  EQTRDS   8</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.873727" elapsed="0.009756"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.883661" elapsed="0.000439"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=31</var>
+<status status="PASS" start="2025-03-06T10:13:51.873004" elapsed="0.011237"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.885047" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=32</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.884744" elapsed="0.000562"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.894431" level="INFO">Text: ' Gorilla Sports France   8'</msg>
+<msg time="2025-03-06T10:13:51.894689" level="INFO">${text} =  Gorilla Sports France   8</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.885509" elapsed="0.009256"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.894941" elapsed="0.000334"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=32</var>
+<status status="PASS" start="2025-03-06T10:13:51.884442" elapsed="0.010912"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.895929" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=33</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.895704" elapsed="0.000331"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.905455" level="INFO">Text: ' MONTANA Boxing gear   7'</msg>
+<msg time="2025-03-06T10:13:51.905699" level="INFO">${text} =  MONTANA Boxing gear   7</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.896189" elapsed="0.009596"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.905979" elapsed="0.000332"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=33</var>
+<status status="PASS" start="2025-03-06T10:13:51.895482" elapsed="0.010909"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.907020" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=34</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.906751" elapsed="0.000408"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.916277" level="INFO">Text: ' Pertemba FR   7'</msg>
+<msg time="2025-03-06T10:13:51.916598" level="INFO">${text} =  Pertemba FR   7</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.907340" elapsed="0.009346"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.916878" elapsed="0.000322"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=34</var>
+<status status="PASS" start="2025-03-06T10:13:51.906520" elapsed="0.010766"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.918177" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=35</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.917801" elapsed="0.000554"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.928105" level="INFO">Text: ' Fashionhero   6'</msg>
+<msg time="2025-03-06T10:13:51.928379" level="INFO">${text} =  Fashionhero   6</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.918524" elapsed="0.009935"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.928642" elapsed="0.000365"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=35</var>
+<status status="PASS" start="2025-03-06T10:13:51.917466" elapsed="0.011631"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.929887" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=36</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.929514" elapsed="0.000551"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.939524" level="INFO">Text: ' Matchu Sports France   6'</msg>
+<msg time="2025-03-06T10:13:51.939781" level="INFO">${text} =  Matchu Sports France   6</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.930275" elapsed="0.009581"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.940127" elapsed="0.000366"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=36</var>
+<status status="PASS" start="2025-03-06T10:13:51.929227" elapsed="0.011382"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.941330" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=37</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.941057" elapsed="0.000388"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.950301" level="INFO">Text: ' Originals Europe   6'</msg>
+<msg time="2025-03-06T10:13:51.950643" level="INFO">${text} =  Originals Europe   6</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.941572" elapsed="0.009186"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.951043" elapsed="0.000465"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=37</var>
+<status status="PASS" start="2025-03-06T10:13:51.940805" elapsed="0.010830"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.952421" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=38</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.952138" elapsed="0.000423"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.962116" level="INFO">Text: ' KAPPA FRANCE   5'</msg>
+<msg time="2025-03-06T10:13:51.962747" level="INFO">${text} =  KAPPA FRANCE   5</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.952746" elapsed="0.010313"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.963653" elapsed="0.000820"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=38</var>
+<status status="PASS" start="2025-03-06T10:13:51.951845" elapsed="0.012703"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.965246" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=39</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.964935" elapsed="0.000429"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.975044" level="INFO">Text: ' Largo Fit   5'</msg>
+<msg time="2025-03-06T10:13:51.975293" level="INFO">${text} =  Largo Fit   5</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.965553" elapsed="0.009812"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.975542" elapsed="0.000362"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=39</var>
+<status status="PASS" start="2025-03-06T10:13:51.964668" elapsed="0.011341"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.976648" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=40</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.976415" elapsed="0.000373"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.985494" level="INFO">Text: ' Olympique Lyonnais   5'</msg>
+<msg time="2025-03-06T10:13:51.985785" level="INFO">${text} =  Olympique Lyonnais   5</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.976948" elapsed="0.008929"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.986055" elapsed="0.000445"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=40</var>
+<status status="PASS" start="2025-03-06T10:13:51.976182" elapsed="0.010426"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.987390" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=41</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.987087" elapsed="0.000437"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:51.997482" level="INFO">Text: ' Greenslide   4'</msg>
+<msg time="2025-03-06T10:13:51.997746" level="INFO">${text} =  Greenslide   4</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.987727" elapsed="0.010096"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.997995" elapsed="0.000359"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=41</var>
+<status status="PASS" start="2025-03-06T10:13:51.986802" elapsed="0.011663"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:51.999235" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=42</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.998968" elapsed="0.000402"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.009455" level="INFO">Text: ' Morele.net EU   4'</msg>
+<msg time="2025-03-06T10:13:52.009721" level="INFO">${text} =  Morele.net EU   4</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:51.999547" elapsed="0.010246"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.009972" elapsed="0.000376"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=42</var>
+<status status="PASS" start="2025-03-06T10:13:51.998667" elapsed="0.011788"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.011167" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=43</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.010951" elapsed="0.000307"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.021838" level="INFO">Text: ' BODYTONE INTERNATIONAL SPORT SL   3'</msg>
+<msg time="2025-03-06T10:13:52.022174" level="INFO">${text} =  BODYTONE INTERNATIONAL SPORT SL   3</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.011383" elapsed="0.010889"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.022529" elapsed="0.000423"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=43</var>
+<status status="PASS" start="2025-03-06T10:13:52.010727" elapsed="0.012314"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.023686" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=44</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.023433" elapsed="0.000369"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.037312" level="INFO">Text: ' Barnett SA   3'</msg>
+<msg time="2025-03-06T10:13:52.037752" level="INFO">${text} =  Barnett SA   3</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.023988" elapsed="0.013915"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.038237" elapsed="0.000627"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=44</var>
+<status status="PASS" start="2025-03-06T10:13:52.023185" elapsed="0.015809"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.039967" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=45</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.039589" elapsed="0.000535"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.055957" level="INFO">Text: ' Tormino FR   3'</msg>
+<msg time="2025-03-06T10:13:52.056209" level="INFO">${text} =  Tormino FR   3</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.040364" elapsed="0.015928"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.056611" elapsed="0.000458"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=45</var>
+<status status="PASS" start="2025-03-06T10:13:52.039227" elapsed="0.017949"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.057939" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=46</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.057663" elapsed="0.000408"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.070700" level="INFO">Text: ' CRESS SPORT   2'</msg>
+<msg time="2025-03-06T10:13:52.071022" level="INFO">${text} =  CRESS SPORT   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.058234" elapsed="0.012890"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.071423" elapsed="0.000418"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=46</var>
+<status status="PASS" start="2025-03-06T10:13:52.057367" elapsed="0.014559"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.072757" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=47</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.072365" elapsed="0.000530"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.083484" level="INFO">Text: ' Distria Global Markets S.L   2'</msg>
+<msg time="2025-03-06T10:13:52.083779" level="INFO">${text} =  Distria Global Markets S.L   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.073077" elapsed="0.010774"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.084175" elapsed="0.000479"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=47</var>
+<status status="PASS" start="2025-03-06T10:13:52.072057" elapsed="0.012717"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.085553" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=48</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.085279" elapsed="0.000382"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.094381" level="INFO">Text: ' ERGOSANTE - BETTERWORK   2'</msg>
+<msg time="2025-03-06T10:13:52.094610" level="INFO">${text} =  ERGOSANTE - BETTERWORK   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.085794" elapsed="0.008899"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.094878" elapsed="0.000378"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=48</var>
+<status status="PASS" start="2025-03-06T10:13:52.084987" elapsed="0.010373"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.096018" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=49</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.095767" elapsed="0.000440"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.105822" level="INFO">Text: ' Fitwinkel - Sporttrader (FBD)*   2'</msg>
+<msg time="2025-03-06T10:13:52.106106" level="INFO">${text} =  Fitwinkel - Sporttrader (FBD)*   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.096363" elapsed="0.009816"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.106354" elapsed="0.000375"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=49</var>
+<status status="PASS" start="2025-03-06T10:13:52.095543" elapsed="0.011295"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.107518" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=50</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.107249" elapsed="0.000387"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.117280" level="INFO">Text: ' Kettler Trading GmbH   2'</msg>
+<msg time="2025-03-06T10:13:52.117760" level="INFO">${text} =  Kettler Trading GmbH   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.107806" elapsed="0.010095"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.118177" elapsed="0.000485"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=50</var>
+<status status="PASS" start="2025-03-06T10:13:52.107028" elapsed="0.011759"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.119549" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=51</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.119277" elapsed="0.000403"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.128141" level="INFO">Text: ' Pepegi EU   2'</msg>
+<msg time="2025-03-06T10:13:52.128389" level="INFO">${text} =  Pepegi EU   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.119873" elapsed="0.008587"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.128636" elapsed="0.000344"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=51</var>
+<status status="PASS" start="2025-03-06T10:13:52.118986" elapsed="0.010095"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.129887" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=52</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.129536" elapsed="0.000509"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.139608" level="INFO">Text: ' Pierre Sports   2'</msg>
+<msg time="2025-03-06T10:13:52.139842" level="INFO">${text} =  Pierre Sports   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.130232" elapsed="0.009686"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.140093" elapsed="0.000360"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=52</var>
+<status status="PASS" start="2025-03-06T10:13:52.129260" elapsed="0.011306"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.141255" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=53</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.141021" elapsed="0.000369"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.150117" level="INFO">Text: ' SDG Distribution   2'</msg>
+<msg time="2025-03-06T10:13:52.150547" level="INFO">${text} =  SDG Distribution   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.141579" elapsed="0.009084"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.150939" elapsed="0.000442"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=53</var>
+<status status="PASS" start="2025-03-06T10:13:52.140747" elapsed="0.010753"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.152277" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=54</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.151984" elapsed="0.000425"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.161466" level="INFO">Text: ' Teqball Kft   2'</msg>
+<msg time="2025-03-06T10:13:52.161706" level="INFO">${text} =  Teqball Kft   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.152596" elapsed="0.009208"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.161977" elapsed="0.000364"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=54</var>
+<status status="PASS" start="2025-03-06T10:13:52.151691" elapsed="0.010757"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.163163" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=55</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.162890" elapsed="0.000408"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.172604" level="INFO">Text: ' WAYS France   2'</msg>
+<msg time="2025-03-06T10:13:52.173070" level="INFO">${text} =  WAYS France   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.163451" elapsed="0.009772"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.173454" elapsed="0.000380"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=55</var>
+<status status="PASS" start="2025-03-06T10:13:52.162615" elapsed="0.011314"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.174514" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=56</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.174291" elapsed="0.000333"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.184173" level="INFO">Text: ' outathome.com   2'</msg>
+<msg time="2025-03-06T10:13:52.184511" level="INFO">${text} =  outathome.com   2</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.174791" elapsed="0.009833"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.184975" elapsed="0.000515"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=56</var>
+<status status="PASS" start="2025-03-06T10:13:52.174068" elapsed="0.011548"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.186537" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=57</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.186185" elapsed="0.000541"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.195596" level="INFO">Text: ' 1001Jouets   1'</msg>
+<msg time="2025-03-06T10:13:52.195885" level="INFO">${text} =  1001Jouets   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.186971" elapsed="0.009004"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.196180" elapsed="0.000401"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=57</var>
+<status status="PASS" start="2025-03-06T10:13:52.185846" elapsed="0.010841"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.197452" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=58</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.197175" elapsed="0.000418"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.207235" level="INFO">Text: ' Biknair.shop   1'</msg>
+<msg time="2025-03-06T10:13:52.207487" level="INFO">${text} =  Biknair.shop   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.197782" elapsed="0.009777"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.207732" elapsed="0.000358"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=58</var>
+<status status="PASS" start="2025-03-06T10:13:52.196875" elapsed="0.011317"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.208837" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=59</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.208608" elapsed="0.000347"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.218436" level="INFO">Text: ' Decathlon France - Seconde Vie   1'</msg>
+<msg time="2025-03-06T10:13:52.218816" level="INFO">${text} =  Decathlon France - Seconde Vie   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.209142" elapsed="0.009818"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.219241" elapsed="0.000436"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=59</var>
+<status status="PASS" start="2025-03-06T10:13:52.208368" elapsed="0.011427"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.220511" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=60</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.220259" elapsed="0.000371"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.265219" level="INFO">Text: ' FITADIUM   1'</msg>
+<msg time="2025-03-06T10:13:52.265631" level="INFO">${text} =  FITADIUM   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.220770" elapsed="0.045037"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.266118" elapsed="0.000431"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=60</var>
+<status status="PASS" start="2025-03-06T10:13:52.219983" elapsed="0.046649"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.267435" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=61</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.267112" elapsed="0.000508"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.277340" level="INFO">Text: ' Grupo R. Queraltó SA   1'</msg>
+<msg time="2025-03-06T10:13:52.277582" level="INFO">${text} =  Grupo R. Queraltó SA   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.267840" elapsed="0.009823"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.277927" elapsed="0.000405"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=61</var>
+<status status="PASS" start="2025-03-06T10:13:52.266777" elapsed="0.011685"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.279245" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=62</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.278967" elapsed="0.000389"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.289269" level="INFO">Text: ' KHYAMFRANCE   1'</msg>
+<msg time="2025-03-06T10:13:52.289508" level="INFO">${text} =  KHYAMFRANCE   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.279487" elapsed="0.010094"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.289760" elapsed="0.000366"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=62</var>
+<status status="PASS" start="2025-03-06T10:13:52.278663" elapsed="0.011567"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.290822" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=63</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.290610" elapsed="0.000313"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.299656" level="INFO">Text: ' Kentucky Horsewear BE   1'</msg>
+<msg time="2025-03-06T10:13:52.300211" level="INFO">${text} =  Kentucky Horsewear BE   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.291095" elapsed="0.009227"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.300687" elapsed="0.000483"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=63</var>
+<status status="PASS" start="2025-03-06T10:13:52.290405" elapsed="0.010881"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.302042" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=64</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.301773" elapsed="0.000406"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.312043" level="INFO">Text: ' Luvesport Distribución S.L.   1'</msg>
+<msg time="2025-03-06T10:13:52.312322" level="INFO">${text} =  Luvesport Distribución S.L.   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.302369" elapsed="0.010033"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.312591" elapsed="0.000400"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=64</var>
+<status status="PASS" start="2025-03-06T10:13:52.301479" elapsed="0.011642"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.313901" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=65</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.313616" elapsed="0.000441"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.324685" level="INFO">Text: ' Nocika SAS   1'</msg>
+<msg time="2025-03-06T10:13:52.324945" level="INFO">${text} =  Nocika SAS   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.314259" elapsed="0.010762"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.325203" elapsed="0.000374"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=65</var>
+<status status="PASS" start="2025-03-06T10:13:52.313323" elapsed="0.012366"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.326363" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=66</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.326071" elapsed="0.000418"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.335454" level="INFO">Text: ' Outdoor Lux   1'</msg>
+<msg time="2025-03-06T10:13:52.335725" level="INFO">${text} =  Outdoor Lux   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.326648" elapsed="0.009173"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.336011" elapsed="0.000393"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=66</var>
+<status status="PASS" start="2025-03-06T10:13:52.325847" elapsed="0.010641"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.337150" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=67</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.336884" elapsed="0.000371"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.345742" level="INFO">Text: ' PROAKCESS sprl   1'</msg>
+<msg time="2025-03-06T10:13:52.346011" level="INFO">${text} =  PROAKCESS sprl   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.337383" elapsed="0.008704"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.346262" elapsed="0.000370"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=67</var>
+<status status="PASS" start="2025-03-06T10:13:52.336625" elapsed="0.010123"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.347694" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=68</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.347369" elapsed="0.000460"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.356500" level="INFO">Text: ' Regatta &amp; Dare2B EU   1'</msg>
+<msg time="2025-03-06T10:13:52.356742" level="INFO">${text} =  Regatta &amp; Dare2B EU   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.347991" elapsed="0.008855"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.357024" elapsed="0.000372"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=68</var>
+<status status="PASS" start="2025-03-06T10:13:52.347028" elapsed="0.010475"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.358173" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=69</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.357939" elapsed="0.000345"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.367628" level="INFO">Text: ' Rovera   1'</msg>
+<msg time="2025-03-06T10:13:52.367979" level="INFO">${text} =  Rovera   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.358437" elapsed="0.009656"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.368441" elapsed="0.000496"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=69</var>
+<status status="PASS" start="2025-03-06T10:13:52.357678" elapsed="0.011387"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.369859" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=70</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.369582" elapsed="0.000400"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.378636" level="INFO">Text: ' Royer Retail SAS   1'</msg>
+<msg time="2025-03-06T10:13:52.378888" level="INFO">${text} =  Royer Retail SAS   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.370154" elapsed="0.008808"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.379142" elapsed="0.000372"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=70</var>
+<status status="PASS" start="2025-03-06T10:13:52.369271" elapsed="0.010346"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.380246" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=71</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.380026" elapsed="0.000357"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.389511" level="INFO">Text: ' TRAINING SERIES   1'</msg>
+<msg time="2025-03-06T10:13:52.389771" level="INFO">${text} =  TRAINING SERIES   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.380553" elapsed="0.009293"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.390033" elapsed="0.000366"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=71</var>
+<status status="PASS" start="2025-03-06T10:13:52.379792" elapsed="0.010707"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.391187" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=72</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.390927" elapsed="0.000382"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.400321" level="INFO">Text: ' XTREM Toys &amp; Sports GmbH   1'</msg>
+<msg time="2025-03-06T10:13:52.400548" level="INFO">${text} =  XTREM Toys &amp; Sports GmbH   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.391484" elapsed="0.009135"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.400795" elapsed="0.000338"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=72</var>
+<status status="PASS" start="2025-03-06T10:13:52.390677" elapsed="0.010538"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.401776" level="INFO">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=73</msg>
+<arg>${seller}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.401548" elapsed="0.000332"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-06T10:13:52.411014" level="INFO">Text: ' iBuy24   1'</msg>
+<msg time="2025-03-06T10:13:52.411258" level="INFO">${text} =  iBuy24   1</msg>
+<var>${text}</var>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.402007" elapsed="0.009327"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${list_of_sellers}</arg>
+<arg>${text}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.411514" elapsed="0.000356"/>
+</kw>
+<var name="${seller}">xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) &gt;&gt; nth=73</var>
+<status status="PASS" start="2025-03-06T10:13:52.401338" elapsed="0.010630"/>
+</iter>
+<var>${seller}</var>
+<value>@{list_on_page}</value>
+<status status="PASS" start="2025-03-06T10:13:51.334899" elapsed="1.077191"/>
+</for>
+<kw name="Get Length" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.412597" level="INFO">Length is 74.</msg>
+<msg time="2025-03-06T10:13:52.412877" level="INFO">${list_count} = 74</msg>
+<var>${list_count}</var>
+<arg>${list_of_sellers}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.412303" elapsed="0.000709"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2025-03-06T10:13:52.413596" level="INFO">Argument types are:
+&lt;class 'str'&gt;
+&lt;class 'int'&gt;</msg>
+<arg>${seller_count}</arg>
+<arg>${list_count}</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2025-03-06T10:13:52.413222" elapsed="0.000539"/>
+</kw>
+<status status="PASS" start="2025-03-06T10:13:51.203092" elapsed="1.210821"/>
+</kw>
+<msg time="2025-03-06T10:13:52.416817" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-03-06T10:13:52.425953" level="INFO">Switching context to context=1ef0cdb6-d835-4792-9509-d1024e16738d in CURRENT</msg>
+<msg time="2025-03-06T10:13:52.430682" level="INFO">Successfully changed active context: context=1ef0cdb6-d835-4792-9509-d1024e16738d</msg>
+<msg time="2025-03-06T10:13:52.465717" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-03-06T10:13:44.775949" elapsed="7.638282"/>
 </test>
-<status status="FAIL" start="2025-03-05T15:46:44.488519" elapsed="57.431459"/>
+<status status="PASS" start="2025-03-06T10:13:44.611219" elapsed="7.856274"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Test1" id="s1" pass="0" fail="1" skip="0">Test1</stat>
+<stat name="Test1" id="s1" pass="1" fail="0" skip="0">Test1</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-03-05T15:46:44.637095" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-03-06T10:13:44.778273" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>

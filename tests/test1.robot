@@ -64,18 +64,16 @@ Test 7
     When I close the cart popin
     When I search for "8336573"
     And I add the product to the cart
-    Then I close the cart popin
     And the product is added to the cart successfully
-    Then I go to the cart
+    Then I close the cart popin
+    # Then I go to the cart
 
+Test 8 
+    When I search for "${search}"
+    Then the search results contain the word "${search}"
+    And the sellers are displayed correctly
 
-
-    # When I search for "8549582"
-    # And I add the product to the cart
-    # Then the product is added to the cart successfully
-    # When I close the cart popin
-    # When I search for "8336573"
-    # And I add the product to the cart
-    # Then the product is added to the cart successfully
-    # When I close the cart popin
- 
+Test 9
+    When I search for "${search}"
+    Then the search results contain the word "${search}"
+    And There are "74" sellers listed
