@@ -1,363 +1,73 @@
-{"level":30,"time":"2025-03-06T09:13:45.249Z","pid":20364,"hostname":"Vauban-1-2","msg":"Listening on 53659"}
-(node:20364) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-03-07T14:46:13.875Z","pid":26336,"hostname":"Vauban-1-2","msg":"Listening on 64658"}
+(node:26336) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-03-06T09:13:45.343Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-03-06T09:13:45.482Z","pid":20364,"hostname":"Vauban-1-2","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
-{"level":30,"time":"2025-03-06T09:13:45.483Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-03-06T09:13:45.483Z","pid":20364,"hostname":"Vauban-1-2","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-03-06T09:13:45.488Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-03-06T09:13:45.488Z","pid":20364,"hostname":"Vauban-1-2","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
-{"level":30,"time":"2025-03-06T09:13:45.488Z","pid":20364,"hostname":"Vauban-1-2","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-03-06T09:13:45.488Z","pid":20364,"hostname":"Vauban-1-2","msg":"Trace file: "}
-{"level":30,"time":"2025-03-06T09:13:45.499Z","pid":20364,"hostname":"Vauban-1-2","msg":"Changed active context"}
-{"level":30,"time":"2025-03-06T09:13:45.499Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method newContext"}
-{"level":30,"time":"2025-03-06T09:13:45.503Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-03-06T09:13:45.503Z","pid":20364,"hostname":"Vauban-1-2","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-03-06T09:13:45.595Z","pid":20364,"hostname":"Vauban-1-2","msg":"Video path: undefined"}
-{"level":30,"time":"2025-03-06T09:13:45.595Z","pid":20364,"hostname":"Vauban-1-2","msg":"Changed active page"}
-{"level":30,"time":"2025-03-06T09:13:47.822Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method newPage"}
-{"level":30,"time":"2025-03-06T09:13:47.828Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2025-03-06T09:13:47.828Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
-{"level":30,"time":"2025-03-06T09:13:47.868Z","pid":20364,"hostname":"Vauban-1-2","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
-{"level":30,"time":"2025-03-06T09:13:47.868Z","pid":20364,"hostname":"Vauban-1-2","msg":"Checking checked state"}
-{"level":30,"time":"2025-03-06T09:13:47.881Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getElementStates"}
-{"level":30,"time":"2025-03-06T09:13:47.884Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-06T09:13:47.884Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
-{"level":30,"time":"2025-03-06T09:13:48.045Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method click"}
-{"level":30,"time":"2025-03-06T09:13:48.049Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2025-03-06T09:13:48.049Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
-{"level":30,"time":"2025-03-06T09:13:48.300Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getElementStates"}
-{"level":30,"time":"2025-03-06T09:13:48.307Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-06T09:13:48.307Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='search'] in page."}
-{"level":30,"time":"2025-03-06T09:13:48.409Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-06T09:13:48.413Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-06T09:13:48.413Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=//button[@type='submit'] in page."}
-{"level":30,"time":"2025-03-06T09:13:50.198Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method click"}
-{"level":30,"time":"2025-03-06T09:13:50.204Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2025-03-06T09:13:50.204Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with id=search-suggestions-banner in page."}
-{"level":30,"time":"2025-03-06T09:13:50.405Z","pid":20364,"hostname":"Vauban-1-2","msg":"Element id=search-suggestions-banner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n"}
-{"level":30,"time":"2025-03-06T09:13:50.405Z","pid":20364,"hostname":"Vauban-1-2","msg":"Checking checked state"}
-{"level":30,"time":"2025-03-06T09:13:50.853Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getElementStates"}
-{"level":30,"time":"2025-03-06T09:13:50.856Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:50.856Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with css=.searchText in page."}
-{"level":30,"time":"2025-03-06T09:13:51.198Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element css=.searchText containing ballon"}
-{"level":30,"time":"2025-03-06T09:13:51.198Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.202Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getElements"}
-{"level":30,"time":"2025-03-06T09:13:51.203Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is disabled, return Locator: xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) in page."}
-{"level":30,"time":"2025-03-06T09:13:51.203Z","pid":20364,"hostname":"Vauban-1-2","msg":"Wait element to reach attached state."}
-{"level":30,"time":"2025-03-06T09:13:51.325Z","pid":20364,"hostname":"Vauban-1-2","msg":"Found 74 elements."}
-{"level":30,"time":"2025-03-06T09:13:51.326Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getElements"}
-{"level":30,"time":"2025-03-06T09:13:51.336Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.336Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=0 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.370Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=0 containing Decathlon\n306"}
-{"level":30,"time":"2025-03-06T09:13:51.370Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.376Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.377Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=1 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.439Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=1 containing Balles de Sport\n444"}
-{"level":30,"time":"2025-03-06T09:13:51.440Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.446Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.446Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=2 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.462Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=2 containing Sport & Go\n282"}
-{"level":30,"time":"2025-03-06T09:13:51.462Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.468Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.468Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=3 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.477Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=3 containing Butyjana\n192"}
-{"level":30,"time":"2025-03-06T09:13:51.477Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.483Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.483Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=4 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.498Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=4 containing Sportano EU\n146"}
-{"level":30,"time":"2025-03-06T09:13:51.498Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.503Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.504Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=5 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.524Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=5 containing  SG EQUIPEMENT   131"}
-{"level":30,"time":"2025-03-06T09:13:51.524Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.529Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.529Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=6 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.536Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=6 containing  FORELLE.COM   111"}
-{"level":30,"time":"2025-03-06T09:13:51.537Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.541Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.541Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=7 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.551Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=7 containing  Sports Lab FR   85"}
-{"level":30,"time":"2025-03-06T09:13:51.551Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.555Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.555Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=8 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.564Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=8 containing  NetsportiqueGMBH   82"}
-{"level":30,"time":"2025-03-06T09:13:51.564Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.572Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.572Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=9 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.578Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=9 containing  DesportivoEU   64"}
-{"level":30,"time":"2025-03-06T09:13:51.578Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.582Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.582Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=10 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.590Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=10 containing  EURL SPORTLAND AMERICAN   36"}
-{"level":30,"time":"2025-03-06T09:13:51.590Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.595Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.595Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=11 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.606Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=11 containing  adidas France S.a.r.l (ADIDAS FR)   36"}
-{"level":30,"time":"2025-03-06T09:13:51.606Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.611Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.611Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=12 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.621Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=12 containing  MLC   33"}
-{"level":30,"time":"2025-03-06T09:13:51.621Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.625Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.625Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=13 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.635Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=13 containing  Brandtia   30"}
-{"level":30,"time":"2025-03-06T09:13:51.635Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.641Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.641Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=14 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.652Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=14 containing  ESPACE SPORT   26"}
-{"level":30,"time":"2025-03-06T09:13:51.652Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.658Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.658Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=15 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.670Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=15 containing  Univers Crampons   26"}
-{"level":30,"time":"2025-03-06T09:13:51.670Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.675Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.675Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=16 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.685Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=16 containing  United Sports Brands   19"}
-{"level":30,"time":"2025-03-06T09:13:51.685Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.690Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.690Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=17 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.699Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=17 containing  hummel Cenozoic Aps FR   18"}
-{"level":30,"time":"2025-03-06T09:13:51.699Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.704Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.704Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=18 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.713Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=18 containing  Ldmk   17"}
-{"level":30,"time":"2025-03-06T09:13:51.713Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.718Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.718Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=19 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.725Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=19 containing  Fitwinkel - Sporttrader   16"}
-{"level":30,"time":"2025-03-06T09:13:51.725Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.730Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.730Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=20 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.737Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=20 containing  Sport-Centrum EU   14"}
-{"level":30,"time":"2025-03-06T09:13:51.737Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.741Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.741Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=21 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.748Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=21 containing  All-American Sports   13"}
-{"level":30,"time":"2025-03-06T09:13:51.748Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.753Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.753Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=22 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.760Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=22 containing  Buffalo B.V. - EU   13"}
-{"level":30,"time":"2025-03-06T09:13:51.760Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.765Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.765Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=23 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.772Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=23 containing  ALL SPORT VINTAGE   11"}
-{"level":30,"time":"2025-03-06T09:13:51.772Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.776Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.776Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=24 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.785Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=24 containing  PUMA Europe GmbH - France   11"}
-{"level":30,"time":"2025-03-06T09:13:51.785Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.789Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.789Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=25 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.797Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=25 containing  Implus EU   10"}
-{"level":30,"time":"2025-03-06T09:13:51.797Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.802Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.802Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=26 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.811Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=26 containing  PlanetFoot   10"}
-{"level":30,"time":"2025-03-06T09:13:51.811Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.816Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.816Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=27 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.825Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=27 containing  Voetbalfanshop   10"}
-{"level":30,"time":"2025-03-06T09:13:51.825Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.830Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.831Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=28 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.840Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=28 containing  Sportello EUR   9"}
-{"level":30,"time":"2025-03-06T09:13:51.840Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.846Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.846Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=29 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.855Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=29 containing  Alltricks   8"}
-{"level":30,"time":"2025-03-06T09:13:51.855Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.859Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.859Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=30 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.867Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=30 containing  Cartothèque   8"}
-{"level":30,"time":"2025-03-06T09:13:51.867Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.872Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.872Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=31 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.879Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=31 containing  EQTRDS   8"}
-{"level":30,"time":"2025-03-06T09:13:51.879Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.883Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.883Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=32 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.890Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=32 containing  Gorilla Sports France   8"}
-{"level":30,"time":"2025-03-06T09:13:51.890Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.894Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.894Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=33 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.901Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=33 containing  MONTANA Boxing gear   7"}
-{"level":30,"time":"2025-03-06T09:13:51.901Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.905Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.905Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=34 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.912Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=34 containing  Pertemba FR   7"}
-{"level":30,"time":"2025-03-06T09:13:51.912Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.917Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.917Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=35 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.924Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=35 containing  Fashionhero   6"}
-{"level":30,"time":"2025-03-06T09:13:51.924Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.928Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.928Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=36 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.935Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=36 containing  Matchu Sports France   6"}
-{"level":30,"time":"2025-03-06T09:13:51.935Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.939Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.939Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=37 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.946Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=37 containing  Originals Europe   6"}
-{"level":30,"time":"2025-03-06T09:13:51.946Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.951Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.951Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=38 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.958Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=38 containing  KAPPA FRANCE   5"}
-{"level":30,"time":"2025-03-06T09:13:51.958Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.963Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.964Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=39 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.971Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=39 containing  Largo Fit   5"}
-{"level":30,"time":"2025-03-06T09:13:51.971Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.975Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.975Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=40 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.981Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=40 containing  Olympique Lyonnais   5"}
-{"level":30,"time":"2025-03-06T09:13:51.981Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.986Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.986Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=41 in page."}
-{"level":30,"time":"2025-03-06T09:13:51.993Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=41 containing  Greenslide   4"}
-{"level":30,"time":"2025-03-06T09:13:51.993Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.998Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:51.998Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=42 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.005Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=42 containing  Morele.net EU   4"}
-{"level":30,"time":"2025-03-06T09:13:52.005Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.009Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.009Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=43 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.017Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=43 containing  BODYTONE INTERNATIONAL SPORT SL   3"}
-{"level":30,"time":"2025-03-06T09:13:52.017Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.022Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.022Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=44 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.033Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=44 containing  Barnett SA   3"}
-{"level":30,"time":"2025-03-06T09:13:52.033Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.039Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.039Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=45 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.052Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=45 containing  Tormino FR   3"}
-{"level":30,"time":"2025-03-06T09:13:52.052Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.056Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.056Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=46 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.066Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=46 containing  CRESS SPORT   2"}
-{"level":30,"time":"2025-03-06T09:13:52.066Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.071Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.071Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=47 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.079Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=47 containing  Distria Global Markets S.L   2"}
-{"level":30,"time":"2025-03-06T09:13:52.079Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.084Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.084Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=48 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.090Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=48 containing  ERGOSANTE - BETTERWORK   2"}
-{"level":30,"time":"2025-03-06T09:13:52.090Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.094Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.094Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=49 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.101Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=49 containing  Fitwinkel - Sporttrader (FBD)*   2"}
-{"level":30,"time":"2025-03-06T09:13:52.101Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.106Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.106Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=50 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.113Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=50 containing  Kettler Trading GmbH   2"}
-{"level":30,"time":"2025-03-06T09:13:52.113Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.118Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.118Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=51 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.124Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=51 containing  Pepegi EU   2"}
-{"level":30,"time":"2025-03-06T09:13:52.124Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.128Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.128Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=52 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.135Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=52 containing  Pierre Sports   2"}
-{"level":30,"time":"2025-03-06T09:13:52.135Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.139Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.139Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=53 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.146Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=53 containing  SDG Distribution   2"}
-{"level":30,"time":"2025-03-06T09:13:52.146Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.150Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.150Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=54 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.157Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=54 containing  Teqball Kft   2"}
-{"level":30,"time":"2025-03-06T09:13:52.157Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.161Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.161Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=55 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.168Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=55 containing  WAYS France   2"}
-{"level":30,"time":"2025-03-06T09:13:52.168Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.173Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.173Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=56 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.180Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=56 containing  outathome.com   2"}
-{"level":30,"time":"2025-03-06T09:13:52.180Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.185Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.185Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=57 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.191Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=57 containing  1001Jouets   1"}
-{"level":30,"time":"2025-03-06T09:13:52.191Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.196Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.196Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=58 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.203Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=58 containing  Biknair.shop   1"}
-{"level":30,"time":"2025-03-06T09:13:52.203Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.207Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.207Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=59 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.214Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=59 containing  Decathlon France - Seconde Vie   1"}
-{"level":30,"time":"2025-03-06T09:13:52.214Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.219Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.219Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=60 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.261Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=60 containing  FITADIUM   1"}
-{"level":30,"time":"2025-03-06T09:13:52.261Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.266Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.266Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=61 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.273Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=61 containing  Grupo R. Queraltó SA   1"}
-{"level":30,"time":"2025-03-06T09:13:52.273Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.278Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.278Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=62 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.285Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=62 containing  KHYAMFRANCE   1"}
-{"level":30,"time":"2025-03-06T09:13:52.285Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.289Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.289Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=63 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.295Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=63 containing  Kentucky Horsewear BE   1"}
-{"level":30,"time":"2025-03-06T09:13:52.295Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.300Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.301Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=64 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.308Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=64 containing  Luvesport Distribución S.L.   1"}
-{"level":30,"time":"2025-03-06T09:13:52.308Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.313Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.313Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=65 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.320Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=65 containing  Nocika SAS   1"}
-{"level":30,"time":"2025-03-06T09:13:52.320Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.324Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.324Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=66 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.331Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=66 containing  Outdoor Lux   1"}
-{"level":30,"time":"2025-03-06T09:13:52.331Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.335Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.335Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=67 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.342Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=67 containing  PROAKCESS sprl   1"}
-{"level":30,"time":"2025-03-06T09:13:52.342Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.346Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.346Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=68 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.352Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=68 containing  Regatta & Dare2B EU   1"}
-{"level":30,"time":"2025-03-06T09:13:52.352Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.356Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.356Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=69 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.363Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=69 containing  Rovera   1"}
-{"level":30,"time":"2025-03-06T09:13:52.363Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.368Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.368Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=70 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.374Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=70 containing  Royer Retail SAS   1"}
-{"level":30,"time":"2025-03-06T09:13:52.374Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.378Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.378Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=71 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.385Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=71 containing  TRAINING SERIES   1"}
-{"level":30,"time":"2025-03-06T09:13:52.385Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.389Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.389Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=72 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.396Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=72 containing  XTREM Toys & Sports GmbH   1"}
-{"level":30,"time":"2025-03-06T09:13:52.396Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.400Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.400Z","pid":20364,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=73 in page."}
-{"level":30,"time":"2025-03-06T09:13:52.407Z","pid":20364,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a) >> nth=73 containing  iBuy24   1"}
-{"level":30,"time":"2025-03-06T09:13:52.407Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getText"}
-{"level":30,"time":"2025-03-06T09:13:52.415Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.416Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.418Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.419Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.421Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.421Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.423Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.424Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.426Z","pid":20364,"hostname":"Vauban-1-2","msg":"Changed active context"}
-{"level":30,"time":"2025-03-06T09:13:52.426Z","pid":20364,"hostname":"Vauban-1-2","msg":"Changing current active page: page=f5fb0dd1-e597-40f8-b7dc-e5105ceae1f9"}
-{"level":30,"time":"2025-03-06T09:13:52.426Z","pid":20364,"hostname":"Vauban-1-2","msg":"Changed active page"}
-{"level":30,"time":"2025-03-06T09:13:52.427Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-03-06T09:13:52.445Z","pid":20364,"hostname":"Vauban-1-2","msg":"Removed page=6852fd77-5450-4764-9d26-c19eeee75aed from context=1ef0cdb6-d835-4792-9509-d1024e16738d page stack"}
-{"level":30,"time":"2025-03-06T09:13:52.461Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-03-06T09:13:52.467Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:52.468Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-03-06T09:13:54.536Z","pid":20364,"hostname":"Vauban-1-2","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-03-06T09:13:54.686Z","pid":20364,"hostname":"Vauban-1-2","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-07T14:46:13.966Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-07T14:46:14.138Z","pid":26336,"hostname":"Vauban-1-2","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-07T14:46:14.139Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-07T14:46:14.139Z","pid":26336,"hostname":"Vauban-1-2","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-07T14:46:14.145Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-07T14:46:14.145Z","pid":26336,"hostname":"Vauban-1-2","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-03-07T14:46:14.146Z","pid":26336,"hostname":"Vauban-1-2","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-07T14:46:14.146Z","pid":26336,"hostname":"Vauban-1-2","msg":"Trace file: "}
+{"level":30,"time":"2025-03-07T14:46:14.158Z","pid":26336,"hostname":"Vauban-1-2","msg":"Changed active context"}
+{"level":30,"time":"2025-03-07T14:46:14.159Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-07T14:46:14.164Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-07T14:46:14.164Z","pid":26336,"hostname":"Vauban-1-2","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-07T14:46:14.262Z","pid":26336,"hostname":"Vauban-1-2","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-07T14:46:14.262Z","pid":26336,"hostname":"Vauban-1-2","msg":"Changed active page"}
+{"level":30,"time":"2025-03-07T14:46:16.025Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-07T14:46:16.030Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T14:46:16.031Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-07T14:46:16.063Z","pid":26336,"hostname":"Vauban-1-2","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-07T14:46:16.063Z","pid":26336,"hostname":"Vauban-1-2","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-07T14:46:16.078Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T14:46:16.081Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-07T14:46:16.081Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-07T14:46:16.241Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method click"}
+{"level":30,"time":"2025-03-07T14:46:16.246Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T14:46:16.246Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-07T14:46:16.496Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T14:46:16.502Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-07T14:46:16.502Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=//button[@data-cs-override-id=\"CategoryItem_7\"] in page."}
+{"level":30,"time":"2025-03-07T14:46:16.625Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method click"}
+{"level":30,"time":"2025-03-07T14:46:16.630Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-07T14:46:16.631Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=//a[@href=\"/second-life/buy-back#/funnel/product/category?opeco=opeco:MENUSERVICES_SECONDEVIE-reprise&type=opeco\"] in page."}
+{"level":30,"time":"2025-03-07T14:46:17.416Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method click"}
+{"level":30,"time":"2025-03-07T14:46:17.422Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:17.422Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(text(), 'Comment ça marche?')] in page."}
+{"level":30,"time":"2025-03-07T14:46:18.646Z","pid":26336,"hostname":"Vauban-1-2","msg":"Retrieved text for element xpath=//div[contains(text(), 'Comment ça marche?')] containing Comment ça marche?"}
+{"level":30,"time":"2025-03-07T14:46:18.646Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.650Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.650Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with //div[normalize-space()='Identifier ton produit'] in page."}
+{"level":30,"time":"2025-03-07T14:46:18.657Z","pid":26336,"hostname":"Vauban-1-2","msg":"Retrieved text for element //div[normalize-space()='Identifier ton produit'] containing Identifier ton produit"}
+{"level":30,"time":"2025-03-07T14:46:18.657Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.660Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.660Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with //div[normalize-space()='Faire un diagnostique'] in page."}
+{"level":30,"time":"2025-03-07T14:46:18.670Z","pid":26336,"hostname":"Vauban-1-2","msg":"Retrieved text for element //div[normalize-space()='Faire un diagnostique'] containing Faire un diagnostique"}
+{"level":30,"time":"2025-03-07T14:46:18.670Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.673Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.673Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with //div[normalize-space()='Selectionner un magasin'] in page."}
+{"level":30,"time":"2025-03-07T14:46:18.682Z","pid":26336,"hostname":"Vauban-1-2","msg":"Retrieved text for element //div[normalize-space()='Selectionner un magasin'] containing Selectionner un magasin"}
+{"level":30,"time":"2025-03-07T14:46:18.683Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.687Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.687Z","pid":26336,"hostname":"Vauban-1-2","msg":"Strict mode is enabled, find Locator with //div[normalize-space()='Confirmer ton offre'] in page."}
+{"level":30,"time":"2025-03-07T14:46:18.701Z","pid":26336,"hostname":"Vauban-1-2","msg":"Retrieved text for element //div[normalize-space()='Confirmer ton offre'] containing Confirmer ton offre"}
+{"level":30,"time":"2025-03-07T14:46:18.701Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-07T14:46:18.710Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.712Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.715Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.718Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.720Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.724Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.726Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.728Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.731Z","pid":26336,"hostname":"Vauban-1-2","msg":"Changed active context"}
+{"level":30,"time":"2025-03-07T14:46:18.731Z","pid":26336,"hostname":"Vauban-1-2","msg":"Changing current active page: page=1646c011-5330-41c1-9c8e-6e360f4f5524"}
+{"level":30,"time":"2025-03-07T14:46:18.731Z","pid":26336,"hostname":"Vauban-1-2","msg":"Changed active page"}
+{"level":30,"time":"2025-03-07T14:46:18.735Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-03-07T14:46:18.748Z","pid":26336,"hostname":"Vauban-1-2","msg":"Removed page=33f70e44-4de1-452e-83bf-9e27426a6573 from context=9477fa38-dc14-4401-a96f-c21577d4b234 page stack"}
+{"level":30,"time":"2025-03-07T14:46:18.767Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-03-07T14:46:18.775Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:18.776Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T14:46:20.836Z","pid":26336,"hostname":"Vauban-1-2","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-07T14:46:20.993Z","pid":26336,"hostname":"Vauban-1-2","msg":"End of node method closeAllBrowsers"}

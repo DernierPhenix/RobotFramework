@@ -5,6 +5,9 @@ Resource  ../resources/search_page.resource
 Resource    ../resources/login_page.resource
 Resource    ../resources/product_page.resource
 Resource    ../resources/cart_page.resource
+Resource    ../resources/services_voyages.resource
+Variables   ../data/product.py
+
 Test Setup  Given I am on the homepage   #Permet de lancer le navigateur et d'aller sur la page d'accueil pour chaque cas de test
 
 *** Variables ***
@@ -77,3 +80,14 @@ Test 9
     When I search for "${search}"
     Then the search results contain the word "${search}"
     And There are "74" sellers listed
+
+Test 10
+    When I search for ${product}
+    Then I am on the product page for ${product.name}
+
+Test 11
+    When I click on the button "Services & voyages"
+    Then In the menu, I click on the link "Revendre mon materiel"
+    And the popup appears
+    Then I verify the content of the popup
+    # And I close the popup
